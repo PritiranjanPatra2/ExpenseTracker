@@ -78,6 +78,12 @@ The **Expense Tracker App** is a full-stack web application designed to help use
 ### Screenshot Add Transactions
 ![Screenshot 6](./frontend/src/assets/6th.png)
 **Description:** Add transaction details page
+### Screenshot EditAndDelete Button for for updating and deleting
+![Screenshot 7](./frontend/src/assets/EditAndDelete.png)
+**Description:** Edit and Delete buttons for updating and deleting transactions.
+### Screenshot Update Transaction Page
+![Screenshot 8](./frontend/src/assets/Update.png)
+**Description:** Update transaction details page
 ### Screenshot Expenses
 ![Screenshot Expenses](./frontend/src/assets/ExpensesCollection.png)
 **Description:** Transactions collection in MongoDB Atlas with fields for title, amount, category,description,transactionType,date,user,createdAt.
