@@ -53,34 +53,34 @@ The **Expense Tracker App** is a full-stack web application designed to help use
 ## 📌 Screenshots
 
 ### Screenshot 1  
-![Screenshot 1](./src/assets/1st.png)  
+![Screenshot 1](./frontend/src/assets/1st.png)  
 **Description:** Signup page with fields for name, email, password, and password confirmation, allowing new users to register.
 ### Screenshot 2
-![Screenshot 2](./src/assets/2nd.png)
+![Screenshot 2](./frontend/src/assets/2nd.png)
 **Description:** In sucessfull signup Confirmation Message
 ### Screenshot 3
-![Screenshot 3](./src/assets/3rd.png)
+![Screenshot 3](./frontend/src/assets/3rd.png)
 **Description:** Its saying to choose your avtar
 ### Screenshot 4
-![Screenshot 4](./src/assets/4th.png)
+![Screenshot 4](./frontend/src/assets/4th.png)
 **Description:** Login page with email and password input fields with Login Button.
 ### Screenshot 5
-![Screenshot 5](./src/assets/5th.png)
+![Screenshot 5](./frontend/src/assets/5th.png)
 **Description:** Expense Tracker Dashboard with expense summary and add expense button.
 ### Screenshot 6
-![Screenshot 6](./src/assets/6th.png)
+![Screenshot 6](./frontend/src/assets/6th.png)
 **Description:** Add transaction details page
 ### Screenshot 7
-![Screenshot 7](./src/assets/7th.png)
+![Screenshot 7](./frontend/src/assets/7th.png)
 **Description:** This page displays a list of expenses along with a "Download CSV" button, allowing users to export their financial data in CSV format for further analysis or record-keeping. It helps users track and manage their expenses efficiently.
 ### Screenshot 8
-![Screenshot 8](./src/assets/8th.png)
+![Screenshot 8](./frontend/src/assets/8th.png)
 **Description:** After downloading the csv,the csv file should look like above
 ### Screenshot 9
-![Screenshot 9](./src/assets/9th.png)
+![Screenshot 9](./frontend/src/assets/9th.png)
 **Description:** Expense filtering by category
 ### Screenshot 10
-![Screenshot 10](./src/assets/10th.png)
+![Screenshot 10](./frontend/src/assets/10th.png)
 **Description:** Expense filtering by date
 
 
