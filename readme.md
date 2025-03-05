@@ -1,8 +1,14 @@
 # Expense Tracker App
 
 ## 🚀 Live Demo
-[Frontend URl](https://expensetracker-pp.onrender.com/)
-[Backend URl] (https://exptra-b.onrender.com)
+
+### 🔗 URLs
+
+- 🌐 **Frontend:** [Expense Tracker Frontend](https://expensetracker-pp.onrender.com/)  
+- 🔧 **Backend:** [Expense Tracker Backend](https://exptra-b.onrender.com/)  
+
+You can use these links to access the application and its backend services. 🚀
+
 
 ## 📚 About the Project
 The **Expense Tracker App** is a full-stack web application designed to help users manage their income and expenses efficiently. It provides a clean and intuitive interface for tracking financial transactions, categorizing expenses, and generating reports.
