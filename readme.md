@@ -1,7 +1,8 @@
 # Expense Tracker App
 
 ## 🚀 Live Demo
-[Click here to use the app](https://expensetracker-pp.onrender.com/)
+[Frontend URl](https://expensetracker-pp.onrender.com/)
+[Backend URl] (https://exptra-b.onrender.com)
 
 ## 📚 About the Project
 The **Expense Tracker App** is a full-stack web application designed to help users manage their income and expenses efficiently. It provides a clean and intuitive interface for tracking financial transactions, categorizing expenses, and generating reports.
@@ -50,35 +51,42 @@ The **Expense Tracker App** is a full-stack web application designed to help use
 
 ## 📌 Screenshots
 
-### Screenshot 1  
+### Screenshot SignUp Page  
 ![Screenshot 1](./frontend/src/assets/1st.png)  
 **Description:** Signup page with fields for name, email, password, and password confirmation, allowing new users to register.
-### Screenshot 2
+### Screenshot Email confirmation on signup
 ![Screenshot 2](./frontend/src/assets/2nd.png)
 **Description:** In sucessfull signup Confirmation Message
-### Screenshot 3
+### Screenshot Choose Avatar
 ![Screenshot 3](./frontend/src/assets/3rd.png)
 **Description:** Its saying to choose your avtar
-### Screenshot 4
+### Screenshot Login Page
 ![Screenshot 4](./frontend/src/assets/4th.png)
 **Description:** Login page with email and password input fields with Login Button.
+### Screenshot User
+![Screenshot User](./frontend/src/assets/UsersCollection.png)
+**Description:** User collection in MongoDB Atlas with fields for name, email, password, and avatarImage,transactions,createdAt.
 ### Screenshot 5
 ![Screenshot 5](./frontend/src/assets/5th.png)
 **Description:** Expense Tracker Dashboard with expense summary and add expense button.
-### Screenshot 6
+### Screenshot Add Transactions
 ![Screenshot 6](./frontend/src/assets/6th.png)
 **Description:** Add transaction details page
-### Screenshot 7
+### Screenshot Expenses
+![Screenshot Expenses](./frontend/src/assets/ExpensesCollection.png)
+**Description:** Transactions collection in MongoDB Atlas with fields for title, amount, category,description,transactionType,date,user,createdAt.
+### Screenshot ListOFExpensesAndCredits with Download CSV button
 ![Screenshot 7](./frontend/src/assets/7th.png)
 **Description:** This page displays a list of expenses along with a "Download CSV" button, allowing users to export their financial data in CSV format for further analysis or record-keeping. It helps users track and manage their expenses efficiently.
-### Screenshot 8
+### Screenshot ExportCSV
 ![Screenshot 8](./frontend/src/assets/8th.png)
 **Description:** After downloading the csv,the csv file should look like above
-### Screenshot 9
+### Screenshot CategoryFilter
 ![Screenshot 9](./frontend/src/assets/9th.png)
 **Description:** Expense filtering by category
-### Screenshot 10
+### Screenshot DateFilter
 ![Screenshot 10](./frontend/src/assets/10th.png)
 **Description:** Expense filtering by date
-
-
+### Screesnshot MobileResponsive
+![Screenshot MobileResponsive](./frontend/src/assets/Responsive.png)
+**Description:** Expense Tracker Dashboard on a mobile device, showing the same layout and functionality as the desktop
