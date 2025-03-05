@@ -172,7 +172,7 @@ const Register = () => {
               <Form.Control type="password"  name="password" placeholder="Password" value={values.password} onChange={handleChange} />
             </Form.Group>
             <div style={{width: "100%", display: "flex" , alignItems:"center", justifyContent:"center", flexDirection: "column"}} className="mt-4">
-              <Link to="/forgotPassword" className="text-white lnk" >Forgot Password?</Link>
+              {/* <Link to="/forgotPassword" className="text-white lnk" >Forgot Password?</Link> */}
 
               <Button
                   type="submit"

@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# Saving the README content as a file for the user to download
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+readme_content = """# Expense Tracker App
 
-## Available Scripts
+## 🚀 Live Demo
+[Click here to use the app](https://expensetracker-pp.onrender.com/)
 
-In the project directory, you can run:
+## 📚 About the Project
+The **Expense Tracker App** is a full-stack web application designed to help users manage their income and expenses efficiently. It provides a clean and intuitive interface for tracking financial transactions, categorizing expenses, and generating reports.
 
-### `npm start`
+## 🔥 Features
+- **User Authentication**
+  - Login and Signup with secure authentication.
+  - JWT-based authentication for security.
+  - Password hashing using bcrypt.
+  - Email confirmation via Nodemailer after signup.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Expense Management**
+  - Add expenses and credits.
+  - Categorize transactions for better tracking.
+  - Filter expenses by category, type (expense/credit), and date.
+  - Download expenses as a CSV file.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **User Profile**
+  - Choose an avatar for the user profile.
+  - Securely store and manage user details.
 
-### `npm test`
+- **Dashboard & Reports**
+  - Dashboard displaying expense summaries.
+  - Weekly expense summaries sent to registered users via email.
+  
+- **API & Backend**
+  - RESTful APIs to manage users, expenses, and categories.
+  - Middleware for authentication and validation.
+  - MongoDB collections for users and expenses.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Other Features**
+  - Mobile responsive frontend.
+  - User-friendly UI for seamless navigation.
 
-### `npm run build`
+## 🛠 Tech Stack
+- **Frontend:** React, React Router, Bootstrap, Toastify
+- **Backend:** Node.js, Express.js, MongoDB, Mongoose
+- **Authentication:** JWT, bcrypt
+- **Email Service:** Nodemailer
+- **Storage:** MongoDB Atlas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📌 Setup Instructions
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/PritiranjanPatra2/ExpenseTracker.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📌 Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Screenshot 1  
+![Screenshot 1](./src/assets/1st.png)  
+**Description:** Signup page with fields for name, email, password, and password confirmation, allowing new users to register.
+### Screenshot 2
+![Screenshot 2](./src/assets/2nd.png)
+**Description:** In sucessfull signup Confirmation Message
+### Screenshot 3
+![Screenshot 3](./src/assets/3rd.png)
+**Description:** Its saying to choose your avtar
+### Screenshot 4
+![Screenshot 4](./src/assets/4th.png)
+**Description:** Login page with email and password input fields with Login Button.
+### Screenshot 5
+![Screenshot 5](./src/assets/5th.png)
+**Description:** Expense Tracker Dashboard with expense summary and add expense button.
+### Screenshot 6
+![Screenshot 6](./src/assets/6th.png)
+**Description:** Add transaction details page
+### Screenshot 7
+![Screenshot 7](./src/assets/7th.png)
+**Description:** This page displays a list of expenses along with a "Download CSV" button, allowing users to export their financial data in CSV format for further analysis or record-keeping. It helps users track and manage their expenses efficiently.
+### Screenshot 8
+![Screenshot 8](./src/assets/8th.png)
+**Description:** After downloading the csv,the csv file should look like above
+### Screenshot 9
+![Screenshot 9](./src/assets/9th.png)
+**Description:** Expense filtering by category
+### Screenshot 10
+![Screenshot 10](./src/assets/10th.png)
+**Description:** Expense filtering by date
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
