@@ -1,6 +1,4 @@
-# Saving the README content as a file for the user to download
-
-readme_content = """# Expense Tracker App
+# Expense Tracker App
 
 ## 🚀 Live Demo
 [Click here to use the app](https://expensetracker-pp.onrender.com/)
